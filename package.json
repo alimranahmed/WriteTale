@@ -1,0 +1,26 @@
+{
+  "name": "writetale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/style.css -o public/build/style.css",
+    "watch": "postcss css/style.css -o public/build/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimranahmed/WriteTale.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alimranahmed/WriteTale/issues"
+  },
+  "homepage": "https://github.com/alimranahmed/WriteTale#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
