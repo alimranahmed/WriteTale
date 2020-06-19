@@ -1,9 +1,9 @@
 <?php include_once "_header.php" ?>
 <div>
-  <h1 class="font-semibold sm:text-xl md:text-3xl text-2xl mb-3 leading-tight">
+  <h1 class="font-semibold sm:text-xl md:text-2xl mb-3 leading-tight">
     Exploring the good things of Laravel through my journey with web frameworks! This will be interesting.
   </h1>
-  <div class="text-justify text-sm md:text-base">
+  <div class="text-sm md:text-lg leading-relaxed">
     The Winter season had just ended. It was the very beginning of Spring though there were still the feel of Winter
     outside Dhaka. I was planning to visit Mymensingh for a long time but unfortunately, it was just in the plan.
     Finally, I took the action to visit. Luckily, I have a brother who has just finished his Masters in Bangladesh
