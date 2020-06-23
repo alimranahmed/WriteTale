@@ -40,10 +40,11 @@
 <div>
     <textarea
         class="px-2 py-2
-        w-full outline-none rounded-lg
+        w-full rounded-lg
         text-justify text-sm md:text-base
-        border
-        bg-gray-100 focus:bg-white focus:shadow focus:border-blue-300"></textarea>
+        border border-blue-200 block appearance-none leading-normal
+        bg-gray-100
+        focus:outline-none focus:bg-white focus:border-blue-300"></textarea>
 </div>
 
 <?php include_once "_footer.php" ?>
