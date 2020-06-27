@@ -1,8 +1,13 @@
 <?php include_once "_header.php" ?>
 <div>
-  <h1 class="font-semibold sm:text-xl md:text-2xl mb-3 leading-tight">
+  <h1 class="font-semibold sm:text-xl md:text-2xl mb-1 leading-tight">
     Exploring the good things of Laravel through my journey with web frameworks! This will be interesting.
   </h1>
+  <div class="text-gray-600 text-xs md:text-sm mb-3">
+    Published 1 year ago on
+    <a href="#" class="text-blue-400 hover:text-blue-700 focus:outline-none focus:text-blue-700">PHP</a>
+    <span class="whitespace-no-wrap">by <span class="text-gray-800">Al Imran Ahmed</span></span>
+  </div>
   <div class="text-sm md:text-lg leading-relaxed">
     The Winter season had just ended. It was the very beginning of Spring though there were still the feel of Winter
     outside Dhaka. I was planning to visit Mymensingh for a long time but unfortunately, it was just in the plan.
@@ -36,15 +41,38 @@
     Biodiversity Center(FMBC), the road that contains lines of mango trees in two sides then blackberry trees then
     litchi trees!
   </div>
+  <div class="mb-3">
+      <?php include '_tags.php' ?>
+  </div>
+
 </div>
 <div>
-    <textarea
-        class="px-2 py-2
+  <textarea placeholder="Comment" aria-label="Comment"
+            class="px-2 py-1
         w-full rounded-lg
         text-justify text-sm md:text-base
         border border-blue-200 block appearance-none leading-normal
         bg-gray-100
         focus:outline-none focus:bg-white focus:border-blue-300"></textarea>
+  <div class="flex mt-4">
+    <input placeholder="Name" aria-label="Name"
+           class="px-2 py-1
+        w-full rounded-lg
+        text-justify text-sm md:text-base
+        border border-blue-200 block appearance-none leading-normal
+        bg-gray-100
+        focus:outline-none focus:bg-white focus:border-blue-300">
+    <input placeholder="Email" aria-label="Email"
+           class="px-2 py-1 ml-4
+        w-full rounded-lg
+        text-justify text-sm md:text-base
+        border border-blue-200 block appearance-none leading-normal
+        bg-gray-100
+        focus:outline-none focus:bg-white focus:border-blue-300">
+  </div>
+  <div class="text-center">
+    <button class="rounded-full border border-blue-200 bg-blue-400 mt-4 px-3 focus:outline-none up">Comment</button>
+  </div>
 </div>
 
 <?php include_once "_footer.php" ?>
