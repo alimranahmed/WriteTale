@@ -34,15 +34,26 @@
     to fogs on the road. By the way, my brother was standing in the station to receive me. This was the starting of
     mission Mymensingh!
 
-    <code>
-      <pre>
-          #include<stdio.h>
-          int main():void
-          {
-            printf("Hello world");
-          }
-      </pre>
-    </code>
+    <pre>
+      <code class="language-php line-numbers">
+        class Math
+        {
+           protected $number1;
+
+           protected $number2;
+
+           public function add()
+           {
+               return $this->number1 + $this->number1;
+           }
+
+           public function subtract()
+           {
+               return $this->number1 - $this->number2;
+           }
+        }
+      </code>
+    </pre>
 
     Bangladesh Agricultural University(BAU)
     From the station, we went straight to BAU, one of the biggest agricultural universities in Asia. The university is
@@ -56,21 +67,21 @@
   </div>
 </div>
 
-<div class="mb-3">
-  <h2 class="border-b border-blue-300 text-xl md:text-2xl font-bold">
-    More articles on <a href="#" class="text-blue-400 hover:text-blue-700 focus:outline-none
-    focus:text-blue-700">PHP</a>
-  </h2>
-    <?php foreach (range(1, 3) as $i): ?>
-        <?php include '_list_card.php' ?>
-    <?php endforeach; ?>
-</div>
+<!--<div class="mb-3">-->
+<!--  <h2 class="border-b border-blue-300 text-xl md:text-2xl font-bold">-->
+<!--    More articles on <a href="#" class="text-blue-400 hover:text-blue-700 focus:outline-none-->
+<!--    focus:text-blue-700">PHP</a>-->
+<!--  </h2>-->
+<!--    --><?php //foreach (range(1, 3) as $i): ?>
+<!--        --><?php //include '_list_card.php' ?>
+<!--    --><?php //endforeach; ?>
+<!--</div>-->
 
 <div>
     <?php include '_comment_form.php' ?>
 </div>
 
-<div class="mb-3">
+<div class="my-3">
   <h2 class="border-b border-blue-300 text-xl md:text-2xl font-bold">
     Comments
   </h2>

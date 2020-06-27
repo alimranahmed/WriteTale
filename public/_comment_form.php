@@ -21,6 +21,9 @@
         bg-gray-100
         focus:outline-none focus:bg-white focus:border-blue-300">
 </div>
-<div class="text-center">
-  <button class="rounded-full border border-blue-200 bg-blue-400 mt-4 px-3 focus:outline-none up">Comment</button>
+<div class="flex justify-between pt-4">
+  <div>
+    <input type="checkbox"> Notify me about new article
+  </div>
+  <button class="rounded-full border border-blue-200 bg-blue-400 px-3 focus:outline-none up">Comment</button>
 </div>
