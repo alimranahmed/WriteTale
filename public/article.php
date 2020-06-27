@@ -34,6 +34,16 @@
     to fogs on the road. By the way, my brother was standing in the station to receive me. This was the starting of
     mission Mymensingh!
 
+    <code>
+      <pre>
+          #include<stdio.h>
+          int main():void
+          {
+            printf("Hello world");
+          }
+      </pre>
+    </code>
+
     Bangladesh Agricultural University(BAU)
     From the station, we went straight to BAU, one of the biggest agricultural universities in Asia. The university is
     so big that I don't have enough time to visit even just interesting things about the university on foot.
@@ -44,35 +54,29 @@
   <div class="mb-3">
       <?php include '_tags.php' ?>
   </div>
-
 </div>
+
+<div class="mb-3">
+  <h2 class="border-b border-blue-300 text-xl md:text-2xl font-bold">
+    More articles on <a href="#" class="text-blue-400 hover:text-blue-700 focus:outline-none
+    focus:text-blue-700">PHP</a>
+  </h2>
+    <?php foreach (range(1, 3) as $i): ?>
+        <?php include '_list_card.php' ?>
+    <?php endforeach; ?>
+</div>
+
 <div>
-  <textarea placeholder="Comment" aria-label="Comment"
-            class="px-2 py-1
-        w-full rounded-lg
-        text-justify text-sm md:text-base
-        border border-blue-200 block appearance-none leading-normal
-        bg-gray-100
-        focus:outline-none focus:bg-white focus:border-blue-300"></textarea>
-  <div class="flex mt-4">
-    <input placeholder="Name" aria-label="Name"
-           class="px-2 py-1
-        w-full rounded-lg
-        text-justify text-sm md:text-base
-        border border-blue-200 block appearance-none leading-normal
-        bg-gray-100
-        focus:outline-none focus:bg-white focus:border-blue-300">
-    <input placeholder="Email" aria-label="Email"
-           class="px-2 py-1 ml-4
-        w-full rounded-lg
-        text-justify text-sm md:text-base
-        border border-blue-200 block appearance-none leading-normal
-        bg-gray-100
-        focus:outline-none focus:bg-white focus:border-blue-300">
-  </div>
-  <div class="text-center">
-    <button class="rounded-full border border-blue-200 bg-blue-400 mt-4 px-3 focus:outline-none up">Comment</button>
-  </div>
+    <?php include '_comment_form.php' ?>
+</div>
+
+<div class="mb-3">
+  <h2 class="border-b border-blue-300 text-xl md:text-2xl font-bold">
+    Comments
+  </h2>
+    <?php foreach (range(1, 3) as $i): ?>
+        <?php include '_comment.php' ?>
+    <?php endforeach; ?>
 </div>
 
 <?php include_once "_footer.php" ?>
